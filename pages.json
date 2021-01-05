@@ -1,0 +1,57 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "发布行程"
+			}
+		},
+		{
+			"path": "pages/mydrive/index1",
+			"style": {
+				"navigationBarTitleText": "我的行程"
+			}
+		},
+		{
+			"path": "pages/owner/index",
+			"style": {
+				"navigationBarTitleText": "车主中心"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	        "color": "#cdcdcd",
+	        "selectedColor": "#1296db",
+	        "borderStyle": "black",
+	        "backgroundColor": "#ffffff",
+	        //导航
+	        "list": [
+				{
+					"pagePath": "pages/index/index",
+					"iconPath": "static/images/tabs/release-select.png",
+					"selectedIconPath": "static/images/tabs/release.png",
+					"text": "发布行程"
+	            }, 
+				{
+					"pagePath": "pages/mydrive/index1",
+					"iconPath": "static/images/tabs/trip-select.png",
+					"selectedIconPath": "static/images/tabs/trip.png",
+					"text": "我的行程"
+	            },
+				{
+					"pagePath": "pages/owner/index",
+					"iconPath": "static/images/tabs/carcenter-select.png",
+					"selectedIconPath": "static/images/tabs/carcenter.png",
+					"text": "车主中心"
+				}
+			]
+	    }
+
+}
